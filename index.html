@@ -5,25 +5,34 @@
     <style>
 
         @font-face {
-            font-family: "bahnschrift";
-            src: url(bahnschrift.ttf") format("truetype");
-        }
-* {font-family: "bahnschrift", Arial, sans-serif;    
-            }
+            font-family: 'bahnschriftregular';
+            src: url('font/bahnschrift-webfont.woff2') format('woff2'),
+            url('font/bahnschrift-webfont.woff') format('woff'),
+            url('font/bahnschrift-webfont.ttf') format('truetype'),
+            url('font/bahnschrift-webfont.svg#bahnschriftregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
 
-        body {
+}
+
+
+        h1   {font-family: "bahnschriftregular", Arial, sans-serif;    
+        
+        }
+
+        body        {
             background-color: #91B79E;
-            font-family: "Bahnschrift", Arial, sans-serif;    
+            font-family: "bahnschriftregular", Arial, sans-serif;    
             padding:5%;
         }
 
-        .container {
+        .container  {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
         }
         
-        .box {
+        .box        {
             flex: 1;
             margin: 42px;
             min-height: 420px;
@@ -80,7 +89,7 @@
 
         ul  {
             margin:10%;
-            font-size: 21px;
+            font-size: 18px;
         }
 
 
@@ -89,7 +98,6 @@
 </head>
 
 <body>
-
     <h1>Herzlich Willkommen bei der SL Schwedt Logistik GmbH</h1>
 
 
