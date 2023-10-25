@@ -7,6 +7,7 @@
         body {
             background-color: #91B79E;
             font-family: "Bahnschrift SemiLight", Arial, sans-serif;    
+            padding:5%;
         }
 
         .container {
@@ -18,6 +19,7 @@
         .box {
             flex: 1;
             margin: 10px;
+            min-height: 420px;
             background-color: #BBD0C2;
             border: 1px solid #ccc;
         }
@@ -35,22 +37,45 @@
 
         .border-button {
                 border: 2px solid white;
-                padding: 10px 20px;
+                padding: 20px 50px;
                 background-color: transparent;
                 color: white;
-                font-size: 16px;
-        cursor: pointer;
+                font-size: 21px;
+                cursor: pointer;
+                text-transform: uppercase;
+                margin-bottom: 21px;
         }
 
-        
+        .height-300 {
+            min-height: 250px;
+        }    
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
     </style>
 </head>
+
 <body>
+
+    <h1>Herzlich Willkommen bei der SL Schwedt Logistik GmbH</h1>
+
+
     <div class="container">
+
+
         <div class="box">
+            <img src="logo_bpl.png" />
             <h2>Handverlesene Bruchsteinplatten aus Grauwacke, Quarzit und Schiefer für</h2>    
-            
-            <ul>
+            <ul class="height-300">
                 <li>Terrasse</li>
                 <li>Garten</li>
                 <li>Hausfassade</li>
@@ -62,15 +87,16 @@
             </ul>
             
             <div class="centered-container">
-                <button class="border-button">Button</button>
+                <button class="border-button">mehr dazu</button>
               </div>
 
         </div>
         
         <div class="box">
+            <img src="logo_bpl.png" />
             <h2>Teil- und Komplettladungen, Lagerung und Kommissionierung</h2>
 
-            <ul>
+            <ul class="height-300">
                 <li>tägliche Rückladungen in neue BL</li>
                 <li>Mitnahmestapler inklusive!</li>
                 <li>qm Lager mit Hallenkran</li>
@@ -81,16 +107,17 @@
             </ul>
 
             <div class="centered-container">
-                <button class="border-button">Button</button>
+                <button class="border-button">mehr dazu</button>
               </div>
 
         </div>
         
         <div class="box">
+            <img src="logo_bpl.png" />
             
         <h2>Teil- und Komplettladungen, Lagerung und Kommissionierung</h2>
 
-            <ul>
+        <ul class="height-300">
                 <li>Grauwacke</li>
                 <li>Quarzit Deep Sea</li>
                 <li>Schiefer Negra</li>
@@ -101,7 +128,7 @@
             </ul>
 
             <div class="centered-container">
-                <button class="border-button">Button</button>
+                <button class="border-button">mehr dazu</button>
               </div>
         
         </div>
