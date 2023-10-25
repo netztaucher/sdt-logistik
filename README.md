@@ -2,4 +2,4 @@
 
 - Nachbau PSD
 - HTML & CSS pur
-- Eimnbidung Webfont
+- Einbindung Webfont
